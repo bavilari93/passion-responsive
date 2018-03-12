@@ -1,0 +1,82 @@
+html{
+	font-size: 14px;
+	font-family: 'abel';
+	text-align: center; 
+}
+
+.wrap{
+	margin: 0 auto;
+	background-color: white;
+	width: 	100%;
+	margin: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap:wrap;
+	align-content: center;
+	justify-content: center;
+}
+.header{
+	flex-direction: column;
+	background-image: url(./img/main.jpg);
+	max-width: 100%;
+	height: 46rem;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+	color:white;
+}
+.header h1.passion{
+	margin:0 auto;
+	margin-top: -330px;
+	padding-bottom: 10px;
+	border-bottom: solid white 2px;
+	width: 50%;
+}
+.header button{
+	width: 80px;
+	height: 30px;
+	border:none;
+	margin: 0 auto;
+	background-color:orange;
+	font-weight: lighter;
+	color: white;
+	text-decoration: 
+}
+.features{
+	flex-direction: row;
+	margin-top:30px;
+	/*justify-content: center;*/
+}
+.features img{
+	margin: 0 auto;
+	height: 3rem;
+	width: 3.5rem;
+	padding:10px;
+	border-radius: 80%;
+	background-color: WhiteSmoke;
+}
+
+.features p{
+	margin:0 auto;
+	width: 50%;
+}
+.quote{
+	flex-direction: row;
+	margin-top: 30px;
+	font-size: 1rem;
+}
+.quote img{
+	max-width:100%;	
+	height: 300px;
+
+}
+.quote h1{
+	margin-bottom: -20px;
+}
+.quote .side-text {
+	float:left;
+	width: 40%;
+	margin-left: 20px;
+
+}
