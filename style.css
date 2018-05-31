@@ -92,8 +92,8 @@ html{
 }
 .gallery img{
 	width: 25rem;
-	height:15rem; 
-	margin-left:5px;
+	height:14rem; 
+	margin:5px;
 }
 .gallery img:nth-child(even){
 	width: 30rem;
